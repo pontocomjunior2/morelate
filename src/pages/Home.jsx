@@ -17,14 +17,14 @@ export default function Home() {
             <section className="relative h-[90vh] min-h-[600px] flex items-center justify-center overflow-hidden -mt-24 bg-slate-900">
                 {/* Background Image */}
                 <div className="absolute inset-0 z-0">
-                    <img src="/bg_hero.jpg"
+                    <img src="/bg_hero.webp"
                         alt="Background"
                         className="w-full h-full object-cover blur-[2px]" />
                     <div className="absolute inset-0 bg-black/10"></div>
                 </div>
                 {/* Mechanic Image - Right aligned, bottom, z-10 */}
                 <div className="absolute bottom-0 right-0 w-full h-full z-10 flex items-end justify-end pointer-events-none">
-                    <img src="/mecanicov2.png"
+                    <img src="/mecanico.webp"
                         alt="Mecânico Morelate"
                         className="w-auto h-[85%] object-contain object-bottom opacity-100" />
                 </div>

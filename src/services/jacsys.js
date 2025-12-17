@@ -44,7 +44,7 @@ const initialProducts = [
         price: 89.90,
         stock: 45,
         location: "Filial Betim - MG",
-        image: "/filtro_combustivel.png",
+        image: "/filtro_combustivel.webp",
         featured: true
     },
     {
@@ -76,7 +76,7 @@ const initialProducts = [
 // Initialize implementation of Jacsys API
 class JacsysService {
     constructor() {
-        this.storageKey = 'morelate_inventory_v2';
+        this.storageKey = 'morelate_inventory_v3';
         if (!localStorage.getItem(this.storageKey)) {
             localStorage.setItem(this.storageKey, JSON.stringify(initialProducts));
         }
