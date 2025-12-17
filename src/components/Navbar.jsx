@@ -27,10 +27,10 @@ export default function Navbar() {
     return (
         <nav
             className={`fixed left-0 right-0 mx-auto z-50 transition-all duration-500 ease-in-out
-        ${isScrolled ? 'top-2 w-[95%] glass-menu scrolled rounded-2xl' : 'top-6 w-[92%] glass-menu rounded-2xl'}
+        ${isScrolled ? 'top-2 w-full max-w-7xl glass-menu scrolled rounded-2xl' : 'top-6 w-[95%] max-w-7xl glass-menu rounded-2xl'}
         ${isMobileMenuOpen ? 'rounded-t-2xl rounded-b-none' : ''}`}
         >
-            <div className="px-6 sm:px-8">
+            <div className="px-4 sm:px-6 lg:px-8">
                 <div className="flex items-center justify-between h-20">
                     {/* Logo */}
                     <Link to="/" className="flex-shrink-0 cursor-pointer flex items-center gap-3">
