@@ -89,10 +89,10 @@ function NavLink({ to, children, className }) {
     return (
         <Link
             to={to}
-            className={`text-gray-300 hover:text-white relative group px-3 py-2 text-sm font-medium transition-colors ${className}`}
+            className={`text-gray-300 hover:text-[#08e689] relative group px-3 py-2 text-sm font-medium transition-colors ${className}`}
         >
             {children}
-            <span className="absolute bottom-0 left-0 w-full h-0.5 bg-brand-600 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></span>
+            <span className="absolute bottom-0 left-0 w-full h-0.5 bg-[#08e689] transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></span>
         </Link>
     );
 }

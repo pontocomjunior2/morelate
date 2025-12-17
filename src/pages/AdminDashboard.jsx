@@ -45,7 +45,7 @@ export default function AdminDashboard() {
                 </div>
                 <button
                     onClick={() => setShowAddModal(true)}
-                    className="bg-brand-600 hover:bg-brand-700 text-white font-bold py-2 px-6 rounded-lg transition-colors flex items-center gap-2"
+                    className="bg-brand-600 hover:bg-brand-700 text-slate-900 font-bold py-2 px-6 rounded-lg transition-colors flex items-center gap-2"
                 >
                     <i className="fa-solid fa-plus"></i> Novo Produto
                 </button>

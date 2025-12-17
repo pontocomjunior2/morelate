@@ -44,7 +44,7 @@ const initialProducts = [
         price: 89.90,
         stock: 45,
         location: "Filial Betim - MG",
-        image: "https://images.unsplash.com/photo-1635338661642-171b31527e57?q=80&w=2070&auto=format&fit=crop",
+        image: "/filtro_combustivel.png",
         featured: true
     },
     {
@@ -76,7 +76,7 @@ const initialProducts = [
 // Initialize implementation of Jacsys API
 class JacsysService {
     constructor() {
-        this.storageKey = 'morelate_inventory';
+        this.storageKey = 'morelate_inventory_v2';
         if (!localStorage.getItem(this.storageKey)) {
             localStorage.setItem(this.storageKey, JSON.stringify(initialProducts));
         }

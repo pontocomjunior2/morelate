@@ -4,11 +4,11 @@
 
 @theme {
   --font-manrope: 'Manrope', sans-serif;
-  --color-brand-400: #23a058;
-  --color-brand-500: #008a47;
-  --color-brand-600: #00723b;
-  --color-brand-700: #005a2e;
-  --color-brand-900: #00331a;
+  --color-brand-400: #6effb0;
+  --color-brand-500: #08e689;
+  --color-brand-600: #08e689;
+  --color-brand-700: #05c274;
+  --color-brand-900: #02543e;
 
   --animate-fade-in: fadeIn 0.8s ease-out forwards;
   --animate-pulse-slow: pulse 10s ease-in-out infinite alternate;
@@ -41,11 +41,13 @@
 
   /* MENU STYLE - Floating Pill/Bar Shape */
   .glass-menu {
-    @apply bg-slate-900/40 backdrop-blur-xl border border-white/10 shadow-xl transition-all duration-300;
+    @apply backdrop-blur-xl border border-white/10 shadow-xl transition-all duration-300;
+    background-color: rgba(2, 44, 34, 0.4);
   }
 
   .glass-menu.scrolled {
-    @apply bg-slate-900/85 border-white/15 shadow-2xl;
+    @apply border-white/15 shadow-2xl;
+    background-color: rgba(2, 44, 34, 0.85);
   }
 
   .glass-card {
